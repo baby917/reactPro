@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import '../fonts/icomoonFont/style.css';
+@import '../fonts/aliiconfont/iconfont.css';
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+}
+.loginBtn {
+  width: 100%;
+  height: 44px;
+  border: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 7px;
+  margin: 14px 0px 0px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.login-btn-left {
+  float: left;
+}
+.login-btn-right {
+  float: right;
+}
+.login-btn-left,
+.login-btn-right {
+  width: 44%;
+  height: 100%;
+  border: none;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+}
+.RegisterBtn {
+  background-color: #18b4ed;
+  border: none;
+  width: 80%;
+  font-size: 24px;
+  font-weight: normal;
+}

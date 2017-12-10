@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import '../fonts/icomoonFont/style.css';
+@import '../fonts/aliiconfont/iconfont.css';
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+}
+.register-box {
+  height: 60px;
+  border: none;
+  padding: 0px 15px;
+  border-bottom: 1px solid gainsboro;
+}
+.register-box span {
+  float: left;
+  width: 30%;
+  line-height: 60px;
+  letter-spacing: 0.2rem;
+}
+.register-box input {
+  float: left;
+  width: 40%;
+  height: 46px;
+  border: none;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+.register-box button {
+  float: right;
+  background: #18b4ed;
+  border-radius: 7px;
+  border: none;
+  height: 35px;
+  width: 25%;
+  margin-top: 14px;
+  color: white;
+}
+::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.register-box-last {
+  border-bottom: none;
+}

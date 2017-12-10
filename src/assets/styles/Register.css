@@ -1,0 +1,37 @@
+@charset "utf-8";
+@import '../fonts/icomoonFont/style.css';
+@import '../fonts/aliiconfont/iconfont.css';
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+}
+#register-container {
+  height: 100%;
+  background-color: #F5F5F5;
+}
+#register-container .register-form {
+  height: 306px;
+  background: white;
+  margin: 20px 0px 30px;
+  padding-left: 10px;
+}
+#register-container .register-form .register-checkbox {
+  color: #bbb;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 1.5rem;
+}
+#register-container .register-form .register-checkbox input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  margin: 6px;
+}
+#registerBtn {
+  margin-top: 5rem;
+  text-align: center;
+}

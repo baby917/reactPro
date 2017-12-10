@@ -1,0 +1,42 @@
+//引入公共样式
+@import "_base";
+//输入框盒子
+.input-box{
+  height: 46px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 7px;
+  margin: 14px 0px 0px;
+  //图标
+  .input-ico{
+    float: left;
+    width: 16%;
+    color: white;
+    margin-bottom: 0rem;
+    i{
+      line-height: 46px;
+      font-size: 30px;
+      text-align: center;
+    }
+    .icon-mobile:before {
+      content: "\e958";
+    }
+  }
+  //输入框
+  .input-text{
+    float: left;
+    width: 84%;
+    color: @fontColor;
+    border:transparent;
+    border-radius: 7px;
+    background: @baseColor;
+    margin-bottom: 0rem;
+    padding: .75rem 0rem;
+    &:hover,&:focus,&:active{
+      border:transparent;
+      color: @fontColor;
+      background: @baseColor;
+    }
+  }
+
+}

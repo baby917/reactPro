@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import '../fonts/icomoonFont/style.css';
+@import '../fonts/aliiconfont/iconfont.css';
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+}
+#login-container {
+  height: 100%;
+  background: #18b4ed;
+  text-align: center;
+}
+#login-container .logo-img {
+  width: 35%;
+  height: 100%;
+  margin-top: 58px;
+}
+#login-container .logo-text {
+  font-size: 38px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1.8rem;
+  text-indent: 1.2rem;
+  margin-top: 0rem;
+  margin-bottom: 1.4rem;
+}
+#login-container #login-form {
+  width: 80%;
+  margin: 10px auto;
+}
+#login-container #login-form .loginTip {
+  color: white;
+  text-align: left;
+  margin-bottom: 1.3rem;
+}
+#login-container .login-btn {
+  width: 54%;
+  height: 30px;
+  margin: 10px auto;
+}

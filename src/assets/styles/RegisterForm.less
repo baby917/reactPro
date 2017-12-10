@@ -1,0 +1,43 @@
+@import "_base";
+.register-box{
+  height: 60px;
+  border:none;
+  padding: 0px 15px;
+  border-bottom: 1px solid gainsboro;
+  //文字
+  span{
+    float: left;
+    width: 30%;
+    line-height: 60px;
+    letter-spacing: 0.2rem;
+  }
+  //输入框
+  input{
+    float: left;
+    width:40%;
+    height: 46px;
+    border: none;
+    margin-bottom: 0;
+    margin-top: 8px;
+  }
+  //验证码按钮
+  button{
+    float: right;
+    background: @baseColor;
+    border-radius: 7px;
+    border: none;
+    height: 35px;
+    width: 25%;
+    margin-top: 14px;
+    color: white;
+  }
+
+}
+&::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.register-box-last{
+  border-bottom: none;
+}

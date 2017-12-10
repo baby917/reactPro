@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import '../fonts/icomoonFont/style.css';
+@import '../fonts/aliiconfont/iconfont.css';
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+}
+.servicemain {
+  background-color: white;
+}
+.servicemain .group-header {
+  font-size: 1.15rem;
+  color: black;
+}
+.servicemain .group-body {
+  padding: 0;
+  text-align: center;
+}
+.servicemain .group-body .col {
+  padding: .6rem 0 1rem;
+  border-right: 1px solid #bbbbbb ;
+  border-bottom: 1px solid #bbbbbb ;
+}
+.servicemain .group-body .col img {
+  width: 3.6rem;
+}
+.servicemain .group-body .col p {
+  margin-top: 0.1rem;
+  font-size: .8rem;
+}
+.servicemain .lifeservice {
+  margin: 0;
+}
+.servicemain .govermentservice {
+  margin-bottom: 0.5rem;
+}

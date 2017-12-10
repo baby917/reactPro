@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import '../fonts/icomoonFont/style.css';
+@import '../fonts/aliiconfont/iconfont.css';
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+}
+.homemain .slider {
+  margin: 0;
+}
+.homemain .features-col {
+  background: white;
+  text-align: center;
+}
+.homemain .features-col .col {
+  padding: .325rem;
+}
+.homemain .features-col .col img {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.homemain .features-col .col p {
+  margin: 0;
+  font-size: .8rem;
+}
+.homemain .banner {
+  background: white;
+  margin-top: 0.6rem;
+  padding: .3rem;
+  border-top: 1px solid #bbbbbb ;
+  border-bottom: 1px solid #bbbbbb ;
+}
+.homemain .banner .col {
+  padding: 0;
+}
+.homemain .banner .col img {
+  padding: 0.3rem;
+}
+.homemain .guesslike {
+  margin: 0;
+}
+.homemain .guesslike .group-header {
+  font-size: 1rem;
+  color: #bbbbbb;
+  font-weight: bold;
+  padding: 10px 0px 10px 5px;
+}
